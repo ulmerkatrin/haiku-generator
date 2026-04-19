@@ -139,12 +139,6 @@ body {
     text-align: center;
 }
 
-.haiku-placeholder {
-    color: var(--clr-muted);
-    font-size: 0.9rem;
-    font-style: italic;
-}
-
 
 .haiku-line {
     font-family: var(--font);
@@ -191,4 +185,9 @@ body {
 
 .site-footer a:hover {
     text-decoration: underline;
+}
+
+.haiku-signature {
+    font-style: italic;
+    color: var(--clr-muted);
 }
