@@ -7,28 +7,32 @@
     <title>Haiku generator</title>
 </head>
 <body>
-    <header>
-    <h1>Welcome to the haiku generator</h1>
+    <header class="site-header">
+    <h1 class="site-title">Welcome to the haiku generator</h1>
     </header>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter your keyword" autofocus required autocomplete="off" />
-            <input type="submit" />
+    <main class="main-content">
+        <section class="form-section">
+        <form class="haiku-form">
+            <input class="keyword-input" type="text" placeholder="Enter your keyword" autofocus required autocomplete="off" />
+            <button class="submit-btn" type="submit">Generate</button>
         </form>
-        <br>
-        <div>
-            The haiku will go here - line 1
-            <br />
-            The haiku will go here - line 2
-        </div>
-    </main>
+        </section>
+        <section class="haiku-section">
+            <div class="haiku-card" id="haiku-output">
+                <p class="haiku-placeholder" The haiku will go here></p>
+            </div>
+        </section>
+        </main>
+        
     <br>
     <br>
-    <footer>
+    <footer class="site-footer">
+        <p>
         Brought to you by
         <a href="https://github.com/ulmerkatrin" target="_blank">Katrin Ulmer</a> and is
         <a href="https://github.com/ulmerkatrin/githubhomework" target="_blank"> on GitHub</a> and
         <a href="https://makeahaiku.netlify.app/" target="_blank">hosted on Netlify</a>
+        </p>
     </footer>
     <script src="src/index.js"></script>
 </body>
